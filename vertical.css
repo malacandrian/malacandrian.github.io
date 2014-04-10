@@ -1,0 +1,56 @@
+/*------------------------
+
+ vertical.css
+ * Used to provide a constant baseline for all text. 
+ * Should be used in conjunction with, but after reset.css to ensure that it takes priority
+ 
+------------------------*/
+body{
+  line-height: 1.5;
+  font-size: 13px;
+}
+
+/* Block level elements */
+h1, h2, h3, h4, h5, h6{
+	margin-top: 1.5em;
+}
+
+h1{
+	font-size: 200%;
+	line-height: 3;
+	margin-top: 1.5em;
+}
+
+h2{
+	font-size: 150%;
+	margin-top: 1.5em;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+/*Lists */
+ul, ol, dl{
+	margin-bottom: 1.5em;
+}
+
+/* Floated elements */
+.f-left {
+	float: left;
+	margin: .5em 1.5em 1em 0;
+}
+
+.f-right {
+	float: right;
+	margin: .5em 0 1em 1.5em;
+}
+
+/* Remove unneeded spaces from the start and end of nested elements */
+*:first-child{
+	 margin-top: 0;
+}
+
+*:last-child{
+	margin-bottom: 0;
+}
