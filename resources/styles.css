@@ -33,12 +33,15 @@ h1 {
     padding-top: 1em;
 }
 
+.mainMenu {
+    border-bottom: 2px solid rgb(128,0,0);
+}
+
 .mainMenu ul {
     padding-left: 40px;
     padding-right: 40px;
     text-align: justify;
     height: 2.5em;
-    border-bottom: 2px solid rgb(128,0,0);
     margin-bottom: 0;
     margin-top: 0;
     padding-top: 1em;
@@ -47,6 +50,15 @@ h1 {
     .mainMenu li {
         display: inline-block;
         font-size: 16pt;
+        zoom: 1;
+        *display: inline;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .mainMenu ul:nth-child(n) {
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .mainMenu ul:after {
