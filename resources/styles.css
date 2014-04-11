@@ -73,3 +73,9 @@ h1 {
     padding-right: 40px;
     text-align: justify;
 }
+
+.gh-ribbon {
+    position: fixed;
+    right: 0;
+    top: 0;
+}
