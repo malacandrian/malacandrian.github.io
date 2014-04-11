@@ -79,3 +79,15 @@ h1 {
     right: 0;
     top: 0;
 }
+
+a {
+    color: rgb(128,0,0);
+}
+
+h1 a, li a {
+    text-decoration: none;
+}
+
+.active {
+    font-weight: bold;
+}

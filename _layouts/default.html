@@ -1,24 +1,24 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>{{ page.title }}</title>
+    <title>Evan Williams :: {{ page.title }}</title>
     <style type="text/css" media="screen">
-        @import url(resources/styles.css);
+        @import url(/resources/styles.css);
     </style>
 </head>
 <body>
     <div class="wrapper">
         <div class="head">
             <div class="title">
-                <h1>Evan Williams</h1>
+                <h1><a href="/">Evan Williams</a></h1>
                 <span class="subtitle">evan@natcs.eu</span>
             </div>
             <div class="mainMenu">
                 <ul>
-                    <li>About</li>
-                    <li>Programming</li>
-                    <li>Game Design</li>
-                    <li>Blog</li>
+                    <li><a href="/" {% if page.title contains'About' %}class="active"{% endif %}>About</a></li>
+                    <li><a href="https://github.com/malacandrian">Programming</a></li>
+                    <li><a href="/games" {% if page.title contains'Game Design' %}class="active"{% endif %}>Game Design</a></li>
+                    <li><a href="http://b.natcs.eu">Blog</a></li>
                 </ul>
             </div>
         </div>
@@ -29,7 +29,7 @@
 
     <div class="gh-ribbon">
         <a href="https://github.com/malacandrian">
-            <img src="resources/github.png" alt="Fork me on Github" />
+            <img src="/resources/github.png" alt="Fork me on Github" />
         </a>
     </div>
 </body>
