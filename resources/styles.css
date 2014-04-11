@@ -56,7 +56,7 @@ h1 {
         padding-right: 20px;
     }
 
-    .mainMenu ul:nth-child(n) {
+    .mainMenu ul li:nth-child(n+0) {
         padding-left: 0;
         padding-right: 0;
     }
