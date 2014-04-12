@@ -33,25 +33,31 @@ h1 {
     padding-top: 1em;
 }
 
-.mainMenu {
+.mainMenu, .subMenu {
     border-bottom: 2px solid rgb(128,0,0);
 }
 
-.mainMenu ul {
-    padding-left: 40px;
-    padding-right: 40px;
-    text-align: justify;
-    height: 2.5em;
-    margin-bottom: 0;
-    margin-top: 0;
-    padding-top: 1em;
-}
+    .mainMenu ul, .subMenu ul {
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .mainMenu ul {
+        text-align: justify;
+        height: 2.5em;
+        padding-top: 1em;
+    }
+
+    .mainMenu li, .subMenu li {
+        display: inline-block;
+        *display: inline;
+        zoom: 1;
+    }
 
     .mainMenu li {
-        display: inline-block;
         font-size: 16pt;
-        zoom: 1;
-        *display: inline;
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -67,8 +73,12 @@ h1 {
         display: inline-block;
     }
 
+    .subMenu li {
+        padding-right: 2em;
+    }
+
 .content {
-    padding-top: 170px;
+    padding-top: 195px;
     padding-left: 40px;
     padding-right: 40px;
     text-align: justify;

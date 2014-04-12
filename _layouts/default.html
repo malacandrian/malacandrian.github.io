@@ -15,12 +15,22 @@
             </div>
             <div class="mainMenu">
                 <ul>
-                    <li><a href="/" {% if page.title contains'About' %}class="active"{% endif %}>About</a></li>
-                    <li><a href="https://github.com/malacandrian">Programming</a></li>
-                    <li><a href="/games" {% if page.title contains'Game Design' %}class="active"{% endif %}>Game Design</a></li>
-                    <li><a href="http://b.natcs.eu">Blog</a></li>
+                    {% for item in site.data.pages %}
+                        <li><a href="{{ item.Link }}" {% if page.category == item.Title %}class="active" {% assign SubMenu = item.SubMenu %}{% endif %}>{{ item.Title }}</a></li> 
+                    {% endfor %}
                 </ul>
             </div>
+            {% if SubMenu %}
+                <div class="subMenu">
+                    <ul>
+                        {% for item in SubMenu %}
+                            {% capture link %}{{ item.Link }}index.html{% endcapture %}
+                            <li><a href="{{ item.Link }}" {% if link == page.url %} class="active"{% endif %}>{{ item.Title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endif %}
+
         </div>
         <div class="content">
             {{ content }}

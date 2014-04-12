@@ -1,0 +1,21 @@
+---
+ - Title: About
+   Link: /
+
+ - Title: Programming
+   Link: https://github.com/malacandrian
+
+ - Title: Game Design
+   Link: /games/
+   SubMenu: 
+    - Title: About
+      Link: /games/
+
+    - Title: Scarlet Pimpernel
+      Link: /games/pimpernel/
+
+    - Title: The Gentlemen
+      Link: /games/gentlemen/
+
+ - Title: Blog
+   Link: http://b.natcs.eu

@@ -1,5 +1,5 @@
 ---
-title: Game Design
+title: The League of the Scarlet Pimpernel
 layout: default
 category: Game Design
 ---
