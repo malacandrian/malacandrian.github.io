@@ -38,14 +38,15 @@ The aim of the game is to smuggle a series of very conspicuous objects across a 
      They are allowed to take an inflatable at most once every 15 minutes. The inflatable is worth double points.
 2. Each attacking team must attempt to move the objects from one NPC to the other.
      - The objects can be passed between players, one player may have at most one object at any one time and objects cannot be left unattended
-     - If a defending player is able to get within touching distance of a player they must surrender their object. Once a defending player has the object they must immedietely take it to either NPC and cash it in for points.
-     - No running is allowed. All captures must be performed by outmanouvering the oppenent, not outpacing them.
+     - If a defending player is able to get within touching distance of a player they must surrender their object. Once a defending player has the object they must immediately take it to either NPC and cash it in for points.
+     - No running is allowed. All captures must be performed by outmanoeuvring the opponent, not outpacing them.
 3. If an attacking team member successfully gets the object to the next NPC, the NPC signs the score card to indicate a run was completed. The player can then either cash in the object for points, or risk another run.
      - The object is worth geometrically more points for each run completed. The points values are *1* -1, *2* -3, *3* -6, *4* -10, *5* -15, *6* -21
      - After 6 runs the object must be cashed in
      - An inflatable object is worth twice as many points
      - If a defending player captures the object, they score the number of points the object would have been worth had it completed the run (e.g. If no runs have been completed, 1 point. If 4 runs have been completed 15 points).
-     - When an object is captured or cashed in the score card is removed and saved for scoring, and a new one is attatched so the object can be reused.
+     - When an object is captured or cashed in the score card is removed and saved for scoring, and a new one is attached so the object can be reused.
+4. Only defending players are allowed to communicate by mobile phone
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"><img alt="Creative Commons Licence" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-nd/2.0/uk/88x31.png" /></a><br />
 This work is licensed under a<br /> 

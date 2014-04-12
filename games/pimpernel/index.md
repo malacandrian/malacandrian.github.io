@@ -32,7 +32,7 @@ The League of the Scarlet Pimpernel is a game of people smuggling. The League of
 ###Play
 1. Each attacking team privately nominates an aristocrat
      The attacking team can choose to change who is their aristocrat at any point when the entire team is assembled at France.
-2. Attacking players are isolated agents in enemy teritory, so cannot use their phones to communicate. The defending players are part of a large network with many informers, and therefore can communicate by phone.
+2. Attacking players are isolated agents in enemy territory, so cannot use their phones to communicate. The defending players are part of a large network with many informers, and therefore can communicate by phone.
 2. The attacking teams must attempt to move their aristocrat from France to England while evading capture
      - The VIP can only move while being escorted by another player
      - The other player does not need to be from their team. If a player from another attacking team starts escorting the aristocrat, the aristocrat must follow.
@@ -40,13 +40,13 @@ The League of the Scarlet Pimpernel is a game of people smuggling. The League of
      - The arresting officer then escorts the attacking player back to France. If they were the aristocrat, the attacking player must wait 2 minutes before returning to the game.
      - The attacking team may eliminate a defender by tapping them on the shoulder without the defending player knowing that they are there.
      - If the defending player notices an attacker trying to sneak up on them, they only need to say their name out loud to stop the attack.
-     - No running is allowed. All captures must be performed by outmanouvering the oppenent, not outpacing them.
+     - No running is allowed. All captures must be performed by outmanoeuvring the opponent, not outpacing them.
 3. An attacking team scores a point whenever they escort an aristocrat from any team to England.
      When they reach England, the team must go all the way back to France before they can begin another run. 
-4. The defending team scores a point whenever they succesfully arrest an aristocrat.
+4. The defending team scores a point whenever they successfully arrest an aristocrat.
 
 ###Balance
-In a well balanced game there should be 1 point scored (that is, an aristocrat succesfully escorted or arrested) once every 10 minutes. About as many points should be scored by the attackers as defenders.
+In a well-balanced game there should be 1 point scored (that is, an aristocrat successfully escorted or arrested) once every 10 minutes. About as many points should be scored by the attackers as defenders.
 
 If this is not the case, you have several tools for adjusting the game balance. The first is changing how many people are on each team. The second is adjusting the size of the play area. A larger area favours the attacking team as they have more routes they can go through, so if the aristocrats are being caught too frequently increase the size of the play area. If they are being escorted too frequently reduce the size of the play area.
 
