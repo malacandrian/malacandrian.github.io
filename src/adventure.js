@@ -1,7 +1,7 @@
 ﻿var go, look, examine, use, take;
 
 function gameInit() {
-    var curRoom, changeRoom, inventory, items, rooms, itemAction;
+    var curRoom, changeRoom, inventory, items, rooms, itemAction, randomRoom, randomString;
 
     inventory = {};
 
@@ -23,6 +23,7 @@ function gameInit() {
             return output;
         }
         else {
+            //Function pointers are magic.
             for (var list in lists) {
                 if (Object.keys(lists[list]).indexOf(item) >= 0) {
                     if (lists[list][item][test]()) {
@@ -74,7 +75,7 @@ function gameInit() {
         if (Object.keys(curRoom.directions).length > 0) {
             out += "\nYou can\n";
             for (direction in curRoom.directions) {
-                out += " - go('" + direction + "')";
+                out += " - go('" + direction + "')\n";
             }
         }
 
@@ -86,15 +87,39 @@ function gameInit() {
         return look();
     }
 
+    randomString = function(lengthMin, lengthMax) {
+        var length = Math.random() * (lengthMax - lengthMin) + lengthMin;
+        return (Math.random()+1).toString(36).substring(0, length);
+    }
+
+    randomRoom = function () {
+        var i, dirs, count;
+        dirs = {};
+        count = Math.ceil(Math.random() * 5)
+        for(i = 0; i < count; i += 1) {
+            dirs[randomString(3, 6)] = function () {
+                return changeRoom(randomRoom());
+            }
+        }
+
+        return {
+            lookText: randomString(20,30),
+            onLook: function() {
+                return this.lookText;
+            },
+            items: {},
+
+            directions: dirs
+        }
+    }
+
     //All the items in the game
     items = {
         API: {
-            examineText: "Natcs Quest API V1.4 \n" +
-               "Hello, and welcome to Natcs Quest, a text-based adventure game played entirely in your browser's Javascript console.\n" +
-               "\n" +
-               "All actions take the form of verb('noun')\n" +
-               "For example, you might want to try \"take('API')\"",
+            version: 1.4,
             lookText: "You think you might be able to read the API by typing \"examine('API')\"",
+
+            verbs: ["look()","go('direction')","examine('item')","use('item')","take('item')"],
 
             examinable: function () { return true },
             takeable: function () { return (Object.keys(inventory).indexOf("API") < 0) },
@@ -105,19 +130,9 @@ function gameInit() {
             },
 
             onTake: function () {
-                //this.takeable = function () { return false };
                 inventory.API = this;
                 delete curRoom.items.API;
                 curRoom.items.Key = items.Key;
-
-
-                this.examineText += "The available verbs are:\n" +
-                    " - look()\n" +
-                    " - go('direction') \n" +
-                    " - examine('item') \n" +
-                    " - use('item') \n" +
-                    " - take('item') \n\n" +
-                    "You can check this at any time by typing \"Object.keys(window)\", or by examining this API\n";
 
                 return "You put the API in your inventory, well done you.\n" +
                     "It seems quite a bit longer now you've picked it up.\n\n" +
@@ -127,7 +142,23 @@ function gameInit() {
             },
 
             onExamine: function () {
-                return this.examineText;
+                var verb;
+
+                output = "Natcs Quest API V" + this.version + "\n" +
+               "Hello, and welcome to Natcs Quest, a text-based adventure game played entirely in your browser's Javascript console.\n" +
+               "\n" +
+               "All actions take the form of verb('noun')\n" +
+               "For example, you might want to try \"take('API')\"\n\n";
+
+                if(Object.keys(inventory).indexOf("API") >= 0) {
+                    output += "The available verbs are:\n";
+                    for (verb in this.verbs) {
+                        output += " - " + this.verbs[verb] + "\n";
+                    }
+                    output += "You can check this at any time by typing \"Object.keys(window)\", or by examining this API\n";
+                }
+
+                return output;
             }
         },
 
@@ -142,7 +173,7 @@ function gameInit() {
                 if (curRoom == rooms.init) {
                     rooms.init.southLocked = false;
                     delete inventory.Key;
-                    return "The lock clicks, and the door swings gently open, revealing a room to the South";
+                    return "The lock clicks, and the door swings gently open, revealing a room to the South. Fresh air wafts in through the door";
                 }
                 else {
                     return "You can't use that here";
@@ -158,6 +189,20 @@ function gameInit() {
 
             onExamine: function () {
                 return "A small key. Use it to open doors.";
+            }
+        },
+
+        Self: {
+            lookText: "",
+
+            examinable: function () { return true },
+            takeable: function () { return false },
+            useable: function () { return false },
+
+            onExamine: function () {
+                return "You stare so deeply into your navel that you worry you might get lost, or fall down that ravine.\n\n" +
+                    "It dawns on you that you are merely an empty vessel, you have acheived nothing with your life, and have no distinct personality. You only seem to exist as a tabula rasa on which over people can project their hopes and dreams. The only thing that unsettles you more than this realisation is that you weren't in the least bit unsettled by it.\n\n" + 
+                    "You resolve to do something with your life... Tomorrow";
             }
         }
     }
@@ -208,7 +253,8 @@ function gameInit() {
             onLook: function () {
                 return "You stand in the middle of a large field.\n" +
                     "To the North sits a small, unimaginative cottage\n" +
-                    "There is a river flowing east-west";
+                    "There is a river flowing east-west \n" +
+                    "Upstream there is a great tower filling the entire skybox";
             },
 
             items: {},
@@ -216,15 +262,57 @@ function gameInit() {
             directions: {
                 North: function () {
                     return changeRoom(rooms.init);
+                },
+
+                West: function () {
+                    return "You follow the river downstream.\n" +
+                        "Something feels instinctively worng about starting a game by going left.\n" +
+                        changeRoom(rooms.ravine);
                 }
             }
+        },
 
+        ravine: {
+            onLook: function () {
+                return "The river runs west, off a cliff, and into a deep ravine. Words cannot describe the beauty that confronts your eyes as you watch the water billow down to the open maw of this chasm. It makes you more than a little introspective.\n" +
+                    "There is a thin rocky path down the edge of the ravine you think you might be able to manage";
+            },
+
+            items: {
+                Self: items.Self
+            },
+            directions: {
+                East: function () {
+                    return changeRoom(rooms.riverHut);
+                },
+
+                Down: function () {
+                    return changeRoom(rooms.maze);
+                }
+            }
+        },
+
+        maze: {
+            onLook: function () {
+                return "YOU ARE IN A TWISTY MAZE OF LITTLE PASSAGES, ALL DIFFERENT.";
+            },
+
+            items: {},
+
+            directions: {
+                Back: function () {
+                    return changeRoom(rooms.ravine);
+                },
+
+                Insane: function () {
+                    return changeRoom(randomRoom());
+                }
+            }
         }
+
     }
 
-
-
-    //Begin the adventure!
+        //Begin the adventure!
     console.log('( (    /|(  ___  )\\__   __/(  ____ \\(  ____ \\     /\\(  ___  )|\\     /|(  ____ \\(  ____ \\\\__   __/\n' +
                 '|  \\  ( || (   ) |   ) (   | (    \\/| (    \\/    / /| (   ) || )   ( || (    \\/| (    \\/   ) (   \n' +
                 '|   \\ | || (___) |   | |   | |      | (_____    / / | |   | || |   | || (__    | (_____    | |   \n' +
