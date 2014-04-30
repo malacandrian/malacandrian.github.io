@@ -520,6 +520,6 @@ function gameInit() {
                 '| )  \\  || )   ( |   | |   | (____/\\/\\____) |/ /    | (_\\ \\ || (___) || (____/\\/\\____) |   | |   \n' +
                 '|/    )_)|/     \\|   )_(   (_______/\\_______)\\/     (____\\/_)(_______)(_______/\\_______)   )_(   ');
 
-    console.log(changeRoom(rooms.footOfTower));
+    console.log(changeRoom(rooms.init));
 
 };
