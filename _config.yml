@@ -1,1 +1,5 @@
-﻿
+﻿url: http://natcs.eu
+
+sitemap:
+    include_posts:
+        - "/blog/index.html"
