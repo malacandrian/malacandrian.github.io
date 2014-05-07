@@ -4,10 +4,6 @@ layout: post
 categories: miss
 ---
 
----
-layout: post
-categories: miss
----
 [Carnegie Mellon's Future Interfaces Group](http://figlab.com/) recently released a video in which they [identified several problems with current touch interfaces](https://www.youtube.com/watch?v=N8s8NJf34fM). Unfortunately, while their assesment of the problem was excellent, their proposed solution was not.
 
 <iframe width="630" height="355" src="//www.youtube.com/embed/N8s8NJf34fM" frameborder="0" allowfullscreen="true"> </iframe>
