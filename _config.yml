@@ -6,6 +6,5 @@ description: The portfolio of Evan Williams
 
 permalink: /blog/:categories/
 
-sitemap:
-    include_posts:
-        - "/blog/index.html"
+gems:
+    - jekyll-sitemap
