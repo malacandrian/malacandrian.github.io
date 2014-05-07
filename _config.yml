@@ -1,5 +1,7 @@
 ﻿url: http://natcs.eu
 
+permalink: /blog/:categories/
+
 sitemap:
     include_posts:
         - "/blog/index.html"

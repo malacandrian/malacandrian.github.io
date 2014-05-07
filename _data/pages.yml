@@ -18,4 +18,10 @@
       Link: /games/gentlemen/
 
  - Title: Blog
-   Link: http://b.natcs.eu
+   Link: /blog/
+   SubMenu:
+    - Title: Archive
+      Link: /blog/
+
+    - Title: Spoiler Warning
+      Link: /blog/spoiler-warning/

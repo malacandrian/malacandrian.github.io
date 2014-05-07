@@ -11,7 +11,7 @@
 }
 
 .head {
-    background-image: url(bg.png);
+    background-image: url(/resources/images/bg.png);
     position: fixed;
     width: 710px;
 }
@@ -20,7 +20,7 @@
     font-size: 16pt;
     text-align: center;
     border-bottom: 2px solid rgb(128,0,0);
-    background-image: url(tree.png);
+    background-image: url(/resources/images/tree.png);
     background-repeat: no-repeat;
     background-position: center bottom;
     height: 110px;
@@ -100,6 +100,10 @@ a {
     a img {
         border: none;
     }
+	
+	a.postLink {
+		font-weight: bold;
+	}
 
 h1 a, li a {
     text-decoration: none;
@@ -107,4 +111,15 @@ h1 a, li a {
 
 .active {
     font-weight: bold;
+}
+
+.cultureImage {
+	float: left;
+	margin-right: 1em;
+	margin-bottom: 1em;
+	margin-top: 18.25px;
+}
+
+.amazon {
+	text-align: center;
 }
