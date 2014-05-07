@@ -13,9 +13,9 @@ Where The Wild Things Are" is loosely based on the book by Maurice Sendak, and f
 
 This is an outstanding film: first time I rented it I watched it twice through and made note to add it to my DVD collection. The cinematography is beautiful, for instance the shots of the half-constructed fort are worthy of framing.
 
-![Fort under construction](/resources/images/posts/wild/wildthing1.jpg)
+![Fort under construction](/resources/images/posts/wild/1.jpg)
 
-![Fort with flowers](/resources/images/posts/wild/wildthing2.jpg)
+![Fort with flowers](/resources/images/posts/wild/2.jpg)
 
 Meanwhile the story evokes many a memory of childhood. Some good, others not. While I've never been in quite the same position as Max was, I very quickly related to him and understood his plight. It's probably because of this that this film is one of the few to have brought me close to tears.
 
