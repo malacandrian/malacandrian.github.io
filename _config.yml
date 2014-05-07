@@ -1,5 +1,9 @@
 ﻿url: http://natcs.eu
 
+name: Natcs
+
+description: The portfolio of Evan Williams
+
 permalink: /blog/:categories/
 
 sitemap:
