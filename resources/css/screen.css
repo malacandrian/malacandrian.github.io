@@ -100,10 +100,6 @@ a {
     a img {
         border: none;
     }
-	
-	a.postLink {
-		font-weight: bold;
-	}
 
 h1 a, li a {
     text-decoration: none;
