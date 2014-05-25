@@ -9,10 +9,13 @@ _Co-developed with Ed Silverstone_
 **Players:** 14+
 **Time required:** 1 hour
 
-_If you wake at midnight, and hear a horse&#39;s feet,  
-Don&#39;t go drawing back the blind, or looking in the street,  
-Them that ask no questions isn&#39;t told a lie.  
-Watch the wall my darling while the Gentlemen go by._
+>If you wake at midnight, and hear a horse's feet,
+>  
+>Don't go drawing back the blind, or looking in the street,  
+>
+>Them that ask no questions isn't told a lie.  
+>
+>Watch the wall my darling while the Gentlemen go by.
 
 ###Premise
 The aim of the game is to smuggle a series of very conspicuous objects across a populated area without getting caught. With each completed run players can choose to cash in their points, or gamble and go for much higher score.
