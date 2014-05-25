@@ -4,6 +4,8 @@ name: Natcs
 
 description: The portfolio of Evan Williams
 
+markdown: kramdown
+
 permalink: /blog/:categories/
 
 gems:
