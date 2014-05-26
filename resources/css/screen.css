@@ -87,6 +87,24 @@ h1 {
     text-align: justify;
 }
 
+.footer {
+	text-align: center;
+	color: #AAA;
+}
+
+	.footer blockquote {
+		font-style: italic;
+		margin-bottom: 0;
+	}
+	
+		.footer blockquote:before, .footer blockquote:after {
+			content: '"';
+		}
+	
+	.footer cite:before {
+		content: "- ";
+	}
+
 .gh-ribbon {
     position: fixed;
     right: 0;
