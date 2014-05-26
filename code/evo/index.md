@@ -4,9 +4,7 @@ layout: default
 category: Programming
 ---
 ##Abstract Evolutions
-[View on Github](https://github.com/malacandrian/AbstractEvolutions)
-
-[View on NuGet](https://www.nuget.org/packages/AbstractEvolutions/)
+[View on Github](https://github.com/malacandrian/AbstractEvolutions) [View on NuGet](https://www.nuget.org/packages/AbstractEvolutions/)
 
 Abstract Evolutions is a framework for generating & evolving genetic algorithms for [Robocode.NET](http://robowiki.net/). It builds on the existing Robocode automation framework, providing abstract classes to define the genomes & evolutionary strategies, as well as all of the logic required to test and breed the robots over an arbitrary number of generations.
 
