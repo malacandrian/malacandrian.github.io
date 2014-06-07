@@ -55,7 +55,7 @@ We need  this assurance that what we believe is true, it is a good thing to dema
 
 ----
 
-I'm just going to leave with a short story from Lindsay Brown's book "Shining like stars" about the power that comes in this conviction of the truth of what we preach. This story is of Amelia, a young Peruvian student    whose campus is overrun with guerrillas from the [Shining Path](http://en.wikipedia.org/wiki/Shining_path).
+I'm just going to leave with a short story from Lindsay Brown's book "Shining like stars" about the power that comes in this conviction of the truth of what we preach. This story is of Amelia, a young Peruvian student whose campus is overrun with guerrillas from the [Shining Path](http://en.wikipedia.org/wiki/Shining_path).
 
 >At that time the guerillas put up a notice on campus with a list of the people they were going to kill. As they killed them, they ticked them off, one by one. She said Christians in the student group urged them to stop the killing, but they refused and said that if Christians didn't remain silent they would kill them too. When she heard this, she was frightened for her life and said nothing about her new-found faith for two years.
 >

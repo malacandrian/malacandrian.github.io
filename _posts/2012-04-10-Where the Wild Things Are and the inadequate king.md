@@ -39,7 +39,7 @@ Here the Wild Things realise that maybe it is a king that they lack. Perhaps a k
 >
 >"I have a sadness shield, it keeps out all the sadness. It's big enough for all of us."
 
-So they put their faith in a monarchy based on lies and false hope. And for a while it works, they happily unite around their newfound king. But quickly troubles and divisions return, and he is unable to help them, if anything he makes them worse. His big two edicts are the building of the fort and the dirt clod war, both of which fail to deliver on their promises, instead leaving great resentment between the Wild Things. Then there's the bones at the beginning, and a comment at the end that tell us Max is not their first king, but the latest in dissatisfying line.
+So they put their faith in a monarchy based on lies and false hope. And for a while it works, they happily unite around their new-found king. But quickly troubles and divisions return, and he is unable to help them, if anything he makes them worse. His big two edicts are the building of the fort and the dirt clod war, both of which fail to deliver on their promises, instead leaving great resentment between the Wild Things. Then there's the bones at the beginning, and a comment at the end that tell us Max is not their first king, but the latest in dissatisfying line.
 
 This bears a remarkable similarity to Israel's history told throughout the Old Testament. For a long period the country had no clear leader, and this is not shown as a good thing.
 
