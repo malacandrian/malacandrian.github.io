@@ -7,14 +7,38 @@
         @import url(/resources/css/screen.css);
     </style>
     <script type="text/ecmascript" src="/src/adventure.js" ></script>
+	
+	<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<link rel="stylesheet" type="text/css" href="http://assets.cookieconsent.silktide.com/current/style.min.css"/>
+<script type="text/javascript" src="http://assets.cookieconsent.silktide.com/current/plugin.min.js"></script>
+<script type="text/javascript">
+// <![CDATA[
+cc.initialise({
+	cookies: {
+		analytics: {}
+	},
+	settings: {
+		consenttype: "implicit",
+		style: "light",
+		bannerPosition: "push",
+		hideprivacysettingstab: true,
+		onlyshowbanneronce: true,
+		disableallsites: true
+	}
+});
+// ]]>
+</script>
+<!-- End Cookie Consent plugin -->
+
 </head>
 <body onload="gameInit()">
-    <<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-XXXXXX-XX', 'example.com');
+    <<script type="text/plain" class="cc-onconsent-analytics">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50526180-1', 'natcs.eu');
 ga('require', 'displayfeatures');
 ga('send', 'pageview');
 </script>
@@ -49,6 +73,7 @@ ga('send', 'pageview');
 			<div class="footer">
 				<blockquote>The best way to predict the future is to invent it</blockquote>
 				<cite>Alan Kay</cite>
+				<p class="cookies"><a onclick="cc.showmodal()">Change cookie options</a></p>
 			</div>
         </div>
     </div>
