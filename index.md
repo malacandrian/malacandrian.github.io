@@ -5,7 +5,7 @@ category: About
 ---
 Hello!
 
-I'm a computer scientist with particular interests in UX engineering, testing, and automation. I studied at the [University of Reading](http://www.reading.ac.uk/), and have worked both for [Microsoft](www.microsoft.com) and in a freelance consultancy role. I am currently seeking employment beginning autumn 2014. For more details, [find me on LinkedIn](https://www.linkedin.com/in/evanrwilliams).
+I'm a computer scientist with particular interests in UX engineering, testing, and automation. I studied at the [University of Reading](http://www.reading.ac.uk/), and have worked both for [Microsoft](http://www.microsoft.com) and in a freelance consultancy role. I am currently seeking employment beginning autumn 2014. For more details, [find me on LinkedIn](https://www.linkedin.com/in/evanrwilliams).
 
 I am proficient in procedural, object oriented, and functional programming; and while I'm always happy to develop new skills, I have a good knowledge of C#, Java, Javascript (in particular jQuery), and Powershell. I am also adept in non-programming web technologies such as (X)HTML, CSS, SVG, and a variety of the more commonly used XML technologies. For a clearer idea of what I can do, take a look at [my portfolio](/code/).
 
