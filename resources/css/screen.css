@@ -8,8 +8,7 @@
     width: 710px;
     margin-left: auto;
     margin-right: auto;
-	
-	margin-top: -21px;
+    margin-top: -21px;
 }
 
 .head {
@@ -29,6 +28,10 @@
     padding-top: 1em;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    text-transform: capitalize;
+}
+
 h1, h2, h3, h4, h5, h6, strong {
     color: rgb(128,0,0);
 }
@@ -36,9 +39,17 @@ h1, h2, h3, h4, h5, h6, strong {
 h1 {
     font-size: 22pt;
     margin-bottom: 0;
-	margin-top: 0;
+    margin-top: 0;
     padding-top: 1em;
 }
+
+h2 {
+    margin-bottom: 0;
+}
+
+    h2 + * {
+        margin-top: 0;
+    }
 
 .mainMenu, .subMenu {
     border-bottom: 2px solid rgb(128,0,0);
@@ -92,30 +103,29 @@ h1 {
 }
 
 .footer {
-	text-align: center;
-	color: #AAA;
-	
-	margin-bottom: 1em;
+    text-align: center;
+    color: #AAA;
+    margin-bottom: 1em;
 }
 
-	.footer blockquote {
-		padding: 0;
-		margin-top: 1em;
-		background-image: none;
-		border: none;
-	}
-	
-		.footer blockquote:before  {
-			content: '\201c';
-		}
-		
-		.footer blockquote:after {
-			content: '\201d';
-		}
-	
-	.footer cite:before {
-		content: "- ";
-	}
+    .footer blockquote {
+        padding: 0;
+        margin-top: 1em;
+        background-image: none;
+        border: none;
+    }
+
+        .footer blockquote:before {
+            content: '\201c';
+        }
+
+        .footer blockquote:after {
+            content: '\201d';
+        }
+
+    .footer cite:before {
+        content: "- ";
+    }
 
 .gh-ribbon {
     position: fixed;
@@ -140,34 +150,40 @@ h1 a, li a {
 }
 
 .cultureImage {
-	float: left;
-	margin-right: 1em;
-	margin-bottom: 1em;
-	margin-top: 18.25px;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    margin-top: 18.25px;
 }
 
 .amazon {
-	text-align: center;
+    text-align: center;
 }
 
 .cookies {
-	position: fixed;
-	right: 0;
-	bottom: 0;
+    position: fixed;
+    right: 0;
+    bottom: 0;
 }
 
 blockquote {
-	font-style: italic;
-	background-image: url(/resources/images/openquote.png), url(/resources/images/closequote.png);
-	background-repeat: no-repeat, no-repeat;
-	background-position: left 1em top 1em, right 1em bottom 1em;
-	
-	margin:0;
-	padding-left: 40px;
-	padding-right: 40px;
-	border-left: 5px solid rgb(128,0,0);
+    font-style: italic;
+    background-image: url(/resources/images/openquote.png), url(/resources/images/closequote.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left 1em top 1em, right 1em bottom 1em;
+    margin: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-left: 5px solid rgb(128,0,0);
 }
 
-blockquote.cultureQuote {
-	margin-left: 215px;
+    blockquote.cultureQuote {
+        margin-left: 215px;
+    }
+
+.archive {
+    list-style: none;
+    padding: 0;
 }
+
+
