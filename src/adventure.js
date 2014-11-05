@@ -245,6 +245,7 @@ function gameInit() {
         },
 
         Swing: {
+			lookText: "",
             examinable: function () { return true },
             takeable: function () { return false },
             useable: function () { return true },
@@ -259,6 +260,7 @@ function gameInit() {
         },
 
         Glove: {
+			lookText: "",
             worn: false,
 
             examinable: function () { return true },
@@ -345,6 +347,10 @@ function gameInit() {
                     "There is a river flowing east-west \n" +
                     "Upstream there is a great tower filling the entire skybox";
             },
+			
+			onSpeak: function() {
+				return "You feel the freedom to say whatever you want";
+				}
 
             items: {},
 
@@ -507,8 +513,8 @@ function gameInit() {
                     return "The tower is dauntingly tall to climb by foot. Fortunately about half a story up the stairs stop and present you with a series of animated construction signs. You wonder if they'd spent as much time on the stairs as they did finding those animations whether they'd be finished by now";
                 },
 				
-              Outside: function() {
-					return changeRoom(rooms.footOfTower)
+				Outside: function()  {
+					return changeRoom(rooms.footOfTower);
 				}
             }
         },
