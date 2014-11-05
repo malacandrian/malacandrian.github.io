@@ -1,4 +1,4 @@
-﻿var go, look, examine, use, take;
+var go, look, examine, use, take;
 
 function gameInit() {
     var curRoom, changeRoom, inventory, items, rooms, itemAction, randomRoom, randomString;
@@ -372,7 +372,7 @@ function gameInit() {
             },
 
             onSpeak: function (words) {
-                return "Saying anything now would disrupt the perfect tranquility of the scene";
+                return "Saying anything now would disrupt the perfect tranquillity of the scene";
             },
 
             items: {
@@ -415,7 +415,7 @@ function gameInit() {
 
         footOfTower: {
             towerLocked: true,
-            state: 0,
+            state: 0, 
 
             onLook: function () {
                 var output = "You stand at the foot of an impractically tall tower. You are deeply unnerved by the structural stability of the thing and make a note to contact an engineer at your soonest convinience.\n" +
@@ -423,8 +423,10 @@ function gameInit() {
                     "Off to the right you see an impractical tree swing";
 
                 if (Object.keys(this.items).indexOf("Glove") >= 0) {
-                    output += "\n On the floor is an abandonned baseball glove.";
+                    output += "\n On the floor is an abandoned baseball glove.";
                 }
+				
+				return output;
             },
 
             onSpeak: function (words) {
@@ -493,17 +495,21 @@ function gameInit() {
 
                 Elevator: function () {
                     if (Object.keys(inventory).indexOf("Glove") >= 0 && items.Glove.worn) {
-                        return "The evelator begins to climb the tower before throwing an exception. You catch it in your baseball glove before continuing to the top floor.\n" +
+                        return "The elevator begins to climb the tower before throwing an exception. You catch it in your baseball glove before continuing to the top floor.\n" +
                             changeRoom(rooms.topFloor);
                     }
                     else {
-                        return "The evelator begins to climb the tower before throwing an exception. You manage to dodge the exception as it flies past your head. The elevator crashes back to the floor";
+                        return "The elevator begins to climb the tower before throwing an exception. You manage to dodge the exception as it flies past your head. The elevator crashes back to the floor";
                     }
                 },
 
                 UpStairs: function () {
-                    return "The tower is dauntingly tall to climb by foot. Fortunatly about half a story up the stairs stop and present you with a series of animated construction signs. You wonder if they'd spent as much time on the stairs as they did finding those animations whether they'd be finished by now";
+                    return "The tower is dauntingly tall to climb by foot. Fortunately about half a story up the stairs stop and present you with a series of animated construction signs. You wonder if they'd spent as much time on the stairs as they did finding those animations whether they'd be finished by now";
                 }
+				
+				Outside: function() 
+					return changeRoom(rooms.footOfTower)
+				}
             }
         },
 
