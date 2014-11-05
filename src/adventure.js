@@ -507,7 +507,7 @@ function gameInit() {
                     return "The tower is dauntingly tall to climb by foot. Fortunately about half a story up the stairs stop and present you with a series of animated construction signs. You wonder if they'd spent as much time on the stairs as they did finding those animations whether they'd be finished by now";
                 },
 				
-				Outside: function() 
+              Outside: function() {
 					return changeRoom(rooms.footOfTower)
 				}
             }
