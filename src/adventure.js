@@ -1,6 +1,6 @@
-var go, look, examine, use, take;
+var go, look, examine, use, take, gameInit;
 
-function gameInit() {
+gameInit = function() {
     var curRoom, changeRoom, inventory, items, rooms, itemAction, randomRoom, randomString;
 
     inventory = {};
@@ -350,7 +350,7 @@ function gameInit() {
 			
 			onSpeak: function() {
 				return "You feel the freedom to say whatever you want";
-				}
+				},
 
             items: {},
 
