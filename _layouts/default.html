@@ -6,12 +6,12 @@
     <style type="text/css" media="screen">
         @import url(/resources/css/screen.css);
     </style>
-	
+
 	<style type="text/css" media="print">
 		@import url(/resources/css/print.css);
 	</style>
     <script type="text/ecmascript" src="/src/adventure.js" ></script>
-	
+
 	<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
 <link rel="stylesheet" type="text/css" href="http://assets.cookieconsent.silktide.com/current/style.min.css"/>
 <script type="text/javascript" src="http://assets.cookieconsent.silktide.com/current/plugin.min.js"></script>
@@ -34,6 +34,8 @@ cc.initialise({
 </script>
 <!-- End Cookie Consent plugin -->
 
+{% feed_meta %}
+{% seo title=false %}
 </head>
 <body onload="gameInit()">
     <script type="text/plain" class="cc-onconsent-analytics">
@@ -55,7 +57,7 @@ ga('send', 'pageview');
             <div class="mainMenu">
                 <ul>
                     {% for item in site.data.pages %}
-                        <li><a href="{{ item.Link }}" {% if page.category == item.Title %}class="active" {% assign SubMenu = item.SubMenu %}{% endif %}>{{ item.Title }}</a></li> 
+                        <li><a href="{{ item.Link }}" {% if page.category == item.Title %}class="active" {% assign SubMenu = item.SubMenu %}{% endif %}>{{ item.Title }}</a></li>
                     {% endfor %}
                 </ul>
             </div>
@@ -73,7 +75,7 @@ ga('send', 'pageview');
         </div>
         <div class="content">
             {{ content }}
-			
+
 			<div class="footer">
 				<blockquote>The best way to predict the future is to invent it</blockquote>
 				<cite>Alan Kay</cite>

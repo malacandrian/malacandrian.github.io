@@ -1,6 +1,6 @@
-﻿url: http://natcs.eu
+﻿url: http://evan.williams.ee
 
-name: Natcs
+name: Evan Williams
 
 description: The portfolio of Evan Williams
 
@@ -10,3 +10,14 @@ permalink: /blog/:categories/
 
 gems:
     - jekyll-sitemap
+    - jekyll-seo-tag
+    - jekyll-feed
+
+twitter:
+    username: evan_williams
+
+logo: /resources/images/tree.png
+
+encoding: utf-8
+
+timezone: Europe/London
