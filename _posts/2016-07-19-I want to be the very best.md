@@ -17,7 +17,7 @@ On [this week's episode](http://coolghosts.net/cool-stuff/2016/7/18/daft-souls-8
 
 >**Quinns:** There is something I find kind of floofy about the Pokémon fiction that this is making clear. I've always wondered, in the world of Pokémon ... if you want to be the best, the reality of Pokémon would be so grim. Because you have tens of thousands of kids all trying to be the best, and none of them can be the best Pokémon Go tells you that in real life, Pokémon would be a horrible grind where everyone is racing to get ahead.
 >
->**Matt:** I can't do anything in it, every time I go to a Gym I always have a look at the level of the things in it, and I'm like "yeah, I can't do that". It's kind of weird actually, *it's antithical to what Pokémon is about*
+>**Matt:** I can't do anything in it, every time I go to a Gym I always have a look at the level of the things in it, and I'm like "yeah, I can't do that". It's kind of weird actually, *it's antithetical to what Pokémon is about*
 >
 >**Kezia:** That's the fantasy, they play into the fantasy, the classic childhood empowerment fantasy.
 >
@@ -29,7 +29,7 @@ But introduce other players in to the mix, and it suddenly gets a whole lot tric
 
 Instead, what life presents us in Pokémon Go is exactly what it presents us with in every other area of life. If you want to be the best, then the only way to get there is by tearing everyone else down, and climbing on their backs. There is only one number one spot, and if you want it you need to best the person in it.
 
-Pokémon Go because makes it particularly evident because either you have your name at the top of a gym, or someone else does. And if you want a gym somebody else owns, then you must fight them for it. But it's equally true elsewhere: I accidentally ended up in Next on sale day last weekend, and the ferality of the shoppers as they tore through the store was unbelievable, all because the sale was a zero-sum game - if someone else got the cheap clothes, then they couldn't. The same goes if you want a promotion, or a table at a trendy restaurant.
+Pokémon Go makes it particularly evident because either you have your name at the top of a gym, or someone else does. And if you want a gym somebody else owns, then you must fight them for it. But it's equally true elsewhere: I accidentally ended up in Next on sale day last weekend, and the ferality of the shoppers as they tore through the store was unbelievable, all because the sale was a zero-sum game - if someone else got the cheap clothes, then they couldn't. The same goes if you want a promotion, or a table at a trendy restaurant.
 
 We are told that life is a race to the top, and the only way up is to tear everyone else down. As Quinns points out, this is an awful way to live. Everyone above you is standing in your way, and everyone below you wants to take you down. If this is life, then it is a life I want no part of.
 
@@ -49,4 +49,4 @@ Isn't this a much better way of living? Isn't this a world you'd much rather liv
 
 Because in Jesus' new kingdom, not only do we live by this better way of life, but so does our king. In fact, he is the king because of this new system. Jesus does not just tell us to make ourselves slaves, but he gives up his heavenly throne to make himself a slave. He does not merely tell us to lower ourselves, but he lowers himself, first to earth as a man, then to death.
 
-Jesus has gone lower than anyone else, he has served more than anyone else, and so he is lifted higher than anyone else. The number one spot belongs to Jesus, and Jesus alone, and so he is lifting all of us up. Isn't that a much better world to live in?
+So I'm going to keep playing Pokémon Go, I'm going to keep enjoying it, and I'm going to keep failing at it. I'm going to continue enjoy seeing the internet full of inspiring stories about the game. But I'm not going to buy into its lie. I don't want to be the very best, like no one ever was. Becuase I know that Jesus has gone lower than anyone else, he has served more than anyone else, and so he is lifted higher than anyone else. The number one spot belongs to Jesus, and Jesus alone, and so he is lifting all of us up. 
