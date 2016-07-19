@@ -9,15 +9,11 @@ categories: go
 >To catch them is my real test  
 >To train them is my cause
 
-<!--
 <iframe width="630" height="355" src="https://www.youtube.com/embed/NcfdoSuC6MI" frameborder="0" allowfullscreen></iframe>
--->
 
 On [this week's episode](http://coolghosts.net/cool-stuff/2016/7/18/daft-souls-86) of [Daft Souls](http://coolghosts.net/daft-souls/), during an interesting discussion about Pokémon Go, Quinns raised a great point about the grim reality of Pokémon, and the quest to become the Pokémon master. If you want to listen below, the wider Pokémon Go discussion opens the podcast, with the relevant section starting at about 23:30. If not, I've transcribed it as well.
 
-<!--
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/274189901&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
--->
 
 >**Quinns:** There is something I find kind of floofy about the Pokémon fiction that this is making clear. I've always wondered, in the world of Pokémon ... if you want to be the best, the reality of Pokémon would be so grim. Because you have tens of thousands of kids all trying to be the best, and none of them can be the best Pokémon Go tells you that in real life, Pokémon would be a horrible grind where everyone is racing to get ahead.
 >
