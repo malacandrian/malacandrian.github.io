@@ -9,7 +9,9 @@ I’m Evan Williams. I live in Norwich with my wife and a very excitable Labrado
 
 Most recently, I worked for [Bishop Hannington Church](http://bhmc.org.uk), training in church leadership. This involved a wide range of responsibilities including teaching, managing teams of volunteers, and aiding in the day-to-day running of the church. I taught in many different contexts: [sermons for the adults in our main gatherings](http://www.bhmc.org.uk/sermons/?preacher=73) (listen to examples [here](http://www.bhmc.org.uk/sermons/?preacher=73), or on the player below), discussions and talks for international students, or developing teaching material for 11-14 year olds ([this is a copy of the material I produced to help them memorise Mark’s gospel](/resources/files/mark-experiment.doc)).
 
-<audio controls src="http://www.bhmc.org.uk/sermons/?download&file_name=2015-08-30-pm-EvanWilliams-Romans6.mp3" />
+<audio controls="true">
+  <source>http://www.bhmc.org.uk/sermons/?download&file_name=2015-08-30-pm-EvanWilliams-Romans6.mp3</source>
+</audio>
 
 I worked as a software tester for [Microsoft](http://microsoft.com), where I held responsibility for running and analysing their automated tests. Each morning I would look at the several-thousand test results we generated overnight to what went wrong, and who was responsible. For example: was it a bug in the product, or the test? Was the testing environment set up correctly? Was the test appropriate for the hardware we were using? Achieving this required spotting patterns across failures (both from today and historically), recreating the test conditions in a controlled environment, and searching through large log files. Once the tests had been analysed, and those responsible had been advised, I would invest time in building tools and streamlining processes to improve productivity.
 
