@@ -7,22 +7,25 @@
    SubMenu:
      - Title: Portfolio
        Link: /code/
-   
+
+    - Title: Ariadne
+      Link: /code/ariadne
+
      - Title: Abstract Evolutions
        Link: /code/evo/
 
      - Title: Piccolo.NET
        Link: /code/piccolo/
-   
+
      - Title: Quest
        Link: /code/quest/
-   
+
      - Title: Github
        Link: https://github.com/malacandrian
 
  - Title: Game Design
    Link: /games/
-   SubMenu: 
+   SubMenu:
     - Title: About
       Link: /games/
 
