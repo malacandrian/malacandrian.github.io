@@ -1,0 +1,17 @@
+sudo -s
+apt-add-repository ppa:brightbox/ruby-ng
+
+apt-update
+apt install make gcc ruby2.3 ruby2.3-dev ruby-switch libxml2-dev libxslt1-dev build-essential --no-install-recommends
+
+ruby-v
+ruby-swith --set ruby2.3
+
+gem install pkg-config
+gem install nokogiri -- --use-system-libraries
+
+gem install bundler
+gem install github-pages
+
+bundle update
+alias serve='bundle exec jekyll serve --force_polling'

@@ -1,0 +1,38 @@
+---
+  permalink: resources/css/styles.css
+---
+@charset "UTF-8";
+
+//Establish variables/functions/mixins/etc
+@import 'variables/variables';
+@import 'variables/colors';
+@import 'variables/mixins';
+@import 'libraries/math-pow/sass/math-pow';
+
+//Import general styles
+@import 'general/reset';
+@import 'general/typography';
+
+//Import media-specific styles
+@media screen
+{
+  //Import styles common to all screens
+  @import 'media/screen';
+
+  //Import mobile-only styles
+  @media (max-width: 699px)
+  {
+    @import 'media/mobile';
+  }
+
+  //Import desktop/tablet-only styles
+  @media (min-width: 700px)
+  {
+    @import 'media/desktop';
+  }
+}
+
+@media print
+{
+  @import 'media/print';
+}

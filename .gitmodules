@@ -1,0 +1,3 @@
+[submodule "_sass/libraries/math-pow"]
+	path = _sass/libraries/math-pow
+	url = https://github.com/strarsis/sass-math-pow.git

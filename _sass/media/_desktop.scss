@@ -1,0 +1,57 @@
+body
+{
+  margin: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  //background-color: $grey4;
+}
+
+.frame
+{
+  border-left: 5px solid $black;
+  border-right: 5px solid $black;
+
+  box-shadow: 1rem 0 transparentize($black, .5), -1rem 0 transparentize($black, .5);
+
+  min-height: 100vh;
+
+  background-color: $white;
+}
+
+.masthead
+{
+  display: flex;
+  margin-top: line-measure(-1);
+
+  justify-content: space-around;
+  align-content: flex-end;
+
+  li
+  {
+    display: flex;
+    align-items: flex-end;
+
+    svg
+    {
+      height: line-measure(1);
+      width: auto;
+    }
+  }
+
+  .masthead-title { order: 2; }
+  .masthead-email { order: 1; }
+  .masthead-twitter { order: 3; }
+}
+
+.contact, .main-menu > ul
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-menu
+{
+  border-bottom: 4px solid $black;
+}
