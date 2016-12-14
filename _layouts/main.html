@@ -2,24 +2,23 @@
 <html>
   {% include head.html %}
   <body>
-    <div class="frame">
-      {% include masthead.svg %}
-      <ul class="masthead">
-        <li class="masthead-title"><h1><a href="/">evan.williams.ee</a></h1></li>
-        <li class="masthead-email"><a href="mailto:evan@williams.ee">{% include mail.svg %}evan@williams.ee</a></li>
-        <li class="masthead-twitter"><a href="https://twitter.com/evan_williams">@Evan_Williams{% include twitter.svg %}</a></li>
+    {% include masthead.svg %}
+    <ul class="masthead">
+      <li class="masthead-title"><h1><a href="/">evan.williams.ee</a></h1></li>
+      <li class="masthead-email"><a href="mailto:evan@williams.ee">{% include mail.svg %}evan@williams.ee</a></li>
+      <li class="masthead-twitter"><a href="https://twitter.com/evan_williams">@Evan_Williams{% include twitter.svg %}</a></li>
+    </ul>
+    <nav class="main-menu">
+      <ul>
+        <li>Home</li>
+        <li>Code</li>
+        <li>Games</li>
+        <li>Blog</li>
       </ul>
-      <nav class="main-menu">
-        <ul>
-          <li>Home</li>
-          <li>Code</li>
-          <li>Games</li>
-          <li>Blog</li>
-        </ul>
-      </nav>
-      <main>
-        {{ content }}
-      </main>
-    </div>
+    </nav>
+    <main>
+      <h2>{{page.title}}</h2>
+      {{ content }}
+    </main>
   </body>
 </html>

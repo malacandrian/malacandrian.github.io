@@ -1,0 +1,77 @@
+body
+{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: $white;
+
+  > svg
+  {
+    width: 100%;
+    height: auto;
+  }
+
+  > *
+  {
+    width: 100%;
+  }
+}
+
+.masthead
+{
+  display: flex;
+  margin-top: line-measure(-.5);
+
+  max-width: 90rem;
+
+  justify-content: space-around;
+  align-content: flex-end;
+
+  li
+  {
+    display: flex;
+    align-items: flex-end;
+
+    svg
+    {
+      height: line-measure(1);
+      width: auto;
+    }
+  }
+
+  .masthead-title { order: 2; }
+  .masthead-email { order: 1; }
+  .masthead-twitter { order: 3; }
+}
+
+.contact, .main-menu > ul
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-menu
+{
+  border-bottom: 4px solid $black;
+  max-width: 90rem;
+}
+
+main
+{
+  max-width: 60rem;
+  align-self: center;
+}
+
+audio
+{
+  width: 100%;
+  height: line-measure(1.5);
+}
+
+p
+{
+  margin-bottom: line-measure(0.5);
+}
