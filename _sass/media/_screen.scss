@@ -27,7 +27,7 @@ body
   order: 20;
 
   display: flex;
-  margin-top: line-measure(-.5);
+
 
   max-width: 90rem;
   li
@@ -50,6 +50,8 @@ body
     align-content: flex-end;
     flex-direction: row;
 
+    margin-top: line-measure(-.5);
+
     .masthead-title { order: 20; }
     .masthead-email { order: 10; }
     .masthead-twitter { order: 30; }
@@ -61,6 +63,8 @@ body
   {
     flex-direction: column;
     align-items: center;
+
+    margin-top: 0;
 
     .masthead-title { order: 10; }
     .masthead-email { order: 20; }
