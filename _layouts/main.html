@@ -23,8 +23,19 @@
       </main>
       <nav class="side-menu">
         <ul>
-          <li>Hello!</li>
-          <li>Over Here!</li>
+          {% assign collection = site[page.collection] %}
+          {% for item in collection %}
+            <li>
+              <a href="{{item.url}}">
+                {% if item.short-title %}
+                  {{ item.short-title }}
+                {% else %}
+                  {{ item.title }}
+                {% endif %}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
       </nav>
     </div>
   </body>
