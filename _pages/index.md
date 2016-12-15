@@ -1,5 +1,4 @@
 ---
-  permalink: /
   layout: main
   title: Hello!
 ---
