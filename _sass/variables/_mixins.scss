@@ -1,0 +1,35 @@
+//  Return the height of a given number of lines
+//  If a fraction of a line is requested, it will be rounded up to the next permitted division
+@function line-measure($num)
+{
+  @return $base-font-size * $line-height * $num;
+}
+
+@function modular-scale($scale)
+{
+  @return poly-pow($scale-root,$scale);
+}
+
+// Scale the font size and line height as a proportion of the default sizes
+@mixin font-scale($scale)
+{
+  font-size: $base-font-size * $scale;
+
+  //  Because line height is measured relative to the font size of the current object, this is a bit complicated
+  //  The aim is that the rendered line height is a multiple of the minimum division of one line
+  //   e.g:
+  //   For a base font size of 16, and  line height of 1.5 with 2 divisions
+  //      - The base line height is 24
+  //      - All line heights must be a multiple of 12
+  //
+  //  The ceiling rule is used to make sure that the function acts in discrete steps,
+  //  and will not move until the font size exceeds the basic height of the line
+  //  The steps are reduced to a fraction of a line by multiplying scale by line-divisions wherever it appears
+  //  Scale is divided out at the end so the resultant line height is relative to the scaled font, rather than the base font-scale
+  line-height: ($line-height * ceil($scale * $line-divisions / $line-height))/($scale * $line-divisions);
+}
+
+@mixin font-modular-scale($scale)
+{
+  @include font-scale(modular-scale($scale));
+}

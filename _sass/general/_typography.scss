@@ -1,0 +1,111 @@
+//Import fonts from Google
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Josefin+Slab:400,400i,700');
+
+//Amatic is missing an underscore, so create a new font face for the underscore
+@font-face
+{
+  font-family: 'underscore';
+  src: local('Arial');
+  unicode-range: U+5F;
+}
+
+*, body
+{
+  @include font-modular-scale(0);
+  font-family: $body-font;
+
+  vertical-align: baseline;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+  text-transform: capitalize;
+  color: $primary;
+
+  font-family: $header-font;
+
+  & + h1, & + h2, & + h3, & + h4, & + h5, & + h6
+  {
+    margin-top: 0;
+  }
+
+  &:first-child
+  {
+    margin-top: 0;
+  }
+
+  a:link, a:visited a:hover, a:active
+  {
+    font-weight: normal;
+    text-decoration: none;
+  }
+}
+
+h1
+{
+  @include font-modular-scale(6);
+}
+
+h2
+{
+  @include font-modular-scale(5);
+}
+
+h3
+{
+  @include font-modular-scale(4);
+}
+
+h4
+{
+  @include font-modular-scale(3);
+}
+
+h5
+{
+  @include font-modular-scale(2);
+}
+
+h6
+{
+  @include font-modular-scale(1);
+}
+
+a:link, a:visited, a:hover, a:active
+{
+  color: $primary;
+  text-decoration: underline;
+}
+
+strong
+{
+  @include font-modular-scale(1);
+  font-weight: 700;
+  color: $primary;
+}
+
+em
+{
+  font-style: italic;
+}
+
+.masthead
+{
+  @include font-modular-scale(3);
+}
+
+.main-menu > ul
+{
+  @include font-modular-scale(4);
+}
+
+.masthead, .main-menu > ul
+{
+  font-family: $header-font;
+
+  a:link, a:visited, a:hover, a:active
+  {
+    color: $primary;
+    text-decoration: none;
+  }
+}

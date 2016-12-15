@@ -1,0 +1,27 @@
+---
+layout: main
+---
+{{content}}
+{% assign collection = site[page.collection] %}
+<ul class="archive">
+  {% for item in collection %}
+    <a href="{{item.url}}">
+      <li>
+        {% if item.picture %}
+          <img src="{{item.picture-root}}{{item.picture}}" />
+        {% else %}
+          <p class="extract">
+            {{ item.content | strip_html }}
+          </p>
+        {% endif %}
+        <h3>
+          {% if item.short-title %}
+            {{ item.short-title }}
+          {% else %}
+            {{ item.title }}
+          {% endif %}
+        </h3>
+      </li>
+    </a>
+  {% endfor %}
+</ul>

@@ -1,0 +1,50 @@
+// Main Colors
+  $black : hsla(0,0%,0%,1);
+  $white : hsla(0,0%,100%,1);
+
+  $primary : hsla(0,100%,25%,1);
+
+
+// Derived Colors
+  //Tints, shades and tones
+    $color-adjust-proportion : 10;
+    $tint-1 : lighten($primary,$color-adjust-proportion);
+    $tint-2 : lighten($primary,$color-adjust-proportion * 2);
+    $tint-3 : lighten($primary,$color-adjust-proportion * 3);
+    $tint-4 : lighten($primary,$color-adjust-proportion * 4);
+
+    $shade-1 : darken($primary,$color-adjust-proportion);
+    $shade-2 : darken($primary,$color-adjust-proportion * 2);
+    $shade-3 : darken($primary,$color-adjust-proportion * 3);
+    $shade-4 : darken($primary,$color-adjust-proportion * 4);
+
+    $tone-1 : desaturate($primary,$color-adjust-proportion);
+    $tone-2 : desaturate($primary,$color-adjust-proportion * 2);
+    $tone-3 : desaturate($primary,$color-adjust-proportion * 3);
+    $tone-4 : desaturate($primary,$color-adjust-proportion * 4);
+
+  // Complementary Color
+    $complement : adjust-hue($primary,180);
+
+    $c-tint-1 : lighten($complement,$color-adjust-proportion);
+    $c-tint-2 : lighten($complement,$color-adjust-proportion * 2);
+    $c-tint-3 : lighten($complement,$color-adjust-proportion * 3);
+    $c-tint-4 : lighten($complement,$color-adjust-proportion * 4);
+
+    $c-shade-1 : darken($complement,$color-adjust-proportion);
+    $c-shade-2 : darken($complement,$color-adjust-proportion * 2);
+    $c-shade-3 : darken($complement,$color-adjust-proportion * 3);
+    $c-shade-4 : darken($complement,$color-adjust-proportion * 4);
+
+    $c-tone-1 : desaturate($complement,$color-adjust-proportion);
+    $c-tone-2 : desaturate($complement,$color-adjust-proportion * 2);
+    $c-tone-3 : desaturate($complement,$color-adjust-proportion * 3);
+    $c-tone-4 : desaturate($complement,$color-adjust-proportion * 4);
+
+  //Greys
+    $greystep : (lightness($white) - lightness($black))/5;
+
+    $grey1: lighten($black, $greystep);
+    $grey2: lighten($black, $greystep * 2);
+    $grey3: lighten($black, $greystep * 3);
+    $grey4: lighten($black, $greystep * 4);
