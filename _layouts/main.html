@@ -10,15 +10,22 @@
     </ul>
     <nav class="main-menu">
       <ul>
-        <li>Home</li>
-        <li>Code</li>
-        <li>Games</li>
-        <li>Blog</li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/code">Code</a></li>
+        <li><a href="/games">Games</a></li>
+        <li><a href="/blog">Blog</a></li>
       </ul>
     </nav>
-    <main>
-      <h2>{{page.title}}</h2>
-      {{ content }}
-    </main>
+    <div class="frame">
+      <main>
+        <h2>{{page.title}}</h2>
+        {{ content }}
+      </main>
+      <nav class="side-menu">
+        <ul>
+          <li>Hello!</li>
+          <li>Over Here!</li>
+      </nav>
+    </div>
   </body>
 </html>

@@ -12,6 +12,8 @@ body
   {
     width: 100%;
     height: auto;
+
+    order: 10;
   }
 
   > *
@@ -22,14 +24,12 @@ body
 
 .masthead
 {
+  order: 20;
+
   display: flex;
   margin-top: line-measure(-.5);
 
   max-width: 90rem;
-
-  justify-content: space-around;
-  align-content: flex-end;
-
   li
   {
     display: flex;
@@ -41,10 +41,31 @@ body
       width: auto;
     }
   }
+}
 
-  .masthead-title { order: 2; }
-  .masthead-email { order: 1; }
-  .masthead-twitter { order: 3; }
+@media (min-width: $mobile-switch-min) {
+  .masthead
+  {
+    justify-content: space-around;
+    align-content: flex-end;
+    flex-direction: row;
+
+    .masthead-title { order: 20; }
+    .masthead-email { order: 10; }
+    .masthead-twitter { order: 30; }
+  }
+}
+
+@media (max-width: $mobile-switch-max) {
+  .masthead
+  {
+    flex-direction: column;
+    align-items: center;
+
+    .masthead-title { order: 10; }
+    .masthead-email { order: 20; }
+    .masthead-twitter { order: 30; }
+  }
 }
 
 .contact, .main-menu > ul
@@ -55,14 +76,84 @@ body
 
 .main-menu
 {
+  order: 30;
+
   border-bottom: 4px solid $black;
   max-width: 90rem;
+}
+
+.frame
+{
+  order: 40;
+
+  display: flex;
+  max-width: 90rem;
+}
+
+.side-menu
+{
+  width: 100%;
+  max-width: 13rem;
+
+  ul
+  {
+    @include font-modular-scale(3);
+    font-family: $header-font;
+  }
 }
 
 main
 {
   max-width: 60rem;
-  align-self: center;
+  margin-right: auto;
+}
+
+@media (min-width: $mobile-switch-min)
+{
+  .frame
+  {
+    flex-direction: row;
+  }
+
+  .side-menu
+  {
+    order: 10;
+    margin-top: line-measure(2);
+    margin-right: 2rem;
+    text-align: right;
+  }
+
+  main
+  {
+    order: 20;
+  }
+}
+
+@media (max-width: $mobile-switch-max)
+{
+  .frame
+  {
+    flex-direction: column;
+  }
+
+  .side-menu
+  {
+    order: 20;
+    margin-top: 0;
+    margin-right: 0;
+    text-align: left;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  main
+  {
+    order: 10;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
 audio
