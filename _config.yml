@@ -30,6 +30,20 @@ defaults:
       type: "pages"
     values:
       permalink: /:basename
+  -
+    scope:
+      path: ""
+      type:
+        - "code"
+        - "games"
+    values:
+      permalink: /:path/:basename
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+        permalink: /blog/:slug
 
 # Build settings
 markdown: kramdown

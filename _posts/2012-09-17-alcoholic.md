@@ -1,7 +1,7 @@
 ---
 layout: main
-
-categories: alcoholic
+title: How is a programmer like an alchoholic?
+short-title: Ultimately Helpless
 ---
 I was just reading an interesting thread on [Slashdot](http://slashdot.org/) about [what it takes be a programmer](http://developers.slashdot.org/story/12/09/16/1631239/can-anyone-become-a-programmer) when this very interesting comment popped up
 

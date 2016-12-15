@@ -1,13 +1,13 @@
 ---
 layout: main
+title: Moneyball and the Athelete's Goal
+short-title: Moneyball
 
 amazon: http://www.amazon.co.uk/gp/product/B005FLAOLY/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B005FLAOLY&linkCode=as2&tag=theothevawil-21
 
 name: Moneyball
 
 quote: I don't think we're asking the right question. I think the question we're supposed to be asking now is, do you believe in what we're doing or not?
-
-categories: Moneyball
 ---
 Moneyball is the second of Aaron Sorkin's hagiographies. The first being 2010's The Social Network, and his third being the Steve Jobs biopic. Most of his TV shows also concern brilliant (albeit fictional) people, and while some dismiss such characters as [high-class Mary Sues](http://chainsawsuit.com/2012/09/17/saw-it-for-you-the-newsroom-season-2-2013/), I've always enjoyed them and don't see the tendency for author-insertion.
 
