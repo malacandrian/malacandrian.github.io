@@ -89,11 +89,6 @@ em
   font-style: italic;
 }
 
-.masthead
-{
-  @include font-modular-scale(3);
-}
-
 .main-menu > ul
 {
   @include font-modular-scale(4);
