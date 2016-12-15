@@ -1,6 +1,7 @@
 ---
 title: Games
-layout: main
+layout: archive
+collection: games
 ---
 This is a collection of pervasive games I either developed or co-developed. They have all been released under [CC-BY-NC-ND](http://creativecommons.org/licenses/by-nc-nd/2.0/uk/) meaning you are free to take and play them. If you do play one, please [get in touch](mailto:evan@natcs.eu) and let me know how it went. Alternatively, if you want to design or run a game for you or your event [get in touch](mailto:evan@natcs.eu) and we'll see what we can arrange.
 

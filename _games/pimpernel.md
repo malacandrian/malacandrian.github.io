@@ -1,5 +1,6 @@
 ---
 title: League of the Scarlet Pimpernel
+short-title: Scarlet Pimpernel
 ---
 _Co-developed with Ed Silverstone_
 
