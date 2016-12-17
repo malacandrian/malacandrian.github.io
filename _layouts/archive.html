@@ -5,10 +5,11 @@ layout: main
 {% assign collection = site[page.collection] %}
 <ul class="archive">
   {% for item in collection %}
-    <a href="{{item.url}}">
-      <li>
-        {% if item.picture %}
-          <img src="{{item.picture-root}}{{item.picture}}" />
+
+    <li>
+      <a href="{{item.url}}">
+        {% if item.image %}
+          <img src="{{item.image-root}}{{item.image}}" />
         {% else %}
           <p class="extract">
             {{ item.content | strip_html }}
@@ -21,7 +22,8 @@ layout: main
             {{ item.title }}
           {% endif %}
         </h3>
-      </li>
-    </a>
+      </a>
+    </li>
+
   {% endfor %}
 </ul>
