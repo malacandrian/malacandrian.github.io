@@ -2,6 +2,7 @@
 layout: main
 title: Moneyball and the Athelete's Goal
 short-title: Moneyball
+image: moneyball.jpg
 
 amazon: http://www.amazon.co.uk/gp/product/B005FLAOLY/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B005FLAOLY&linkCode=as2&tag=theothevawil-21
 
