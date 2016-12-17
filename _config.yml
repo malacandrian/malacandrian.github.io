@@ -33,17 +33,22 @@ defaults:
   -
     scope:
       path: ""
-      type:
-        - "code"
-        - "games"
+      type: "code"
     values:
-      permalink: /:path/:basename
+      image-root: /resources/images/code/
+  -
+    scope:
+      path: ""
+      type: "games"
+    values:
+      image-root: /resources/images/games/
   -
     scope:
       path: ""
       type: "posts"
     values:
         permalink: /blog/:slug
+        image-root: /resources/images/blog/
 
 # Build settings
 markdown: kramdown
