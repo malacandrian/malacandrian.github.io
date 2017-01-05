@@ -47,8 +47,15 @@ defaults:
       path: ""
       type: "posts"
     values:
-        permalink: /blog/:slug
+        permalink: /blog/:categories/:slug
         image-root: /resources/images/blog/
+  -
+    scope:
+      path: "sermons"
+      type: "posts"
+    values:
+      layout: sermon
+      audio-root: /resources/sermons/
 
 # Build settings
 markdown: kramdown
