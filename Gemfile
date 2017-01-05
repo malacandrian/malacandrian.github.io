@@ -1,6 +1,10 @@
 source 'https://rubygems.org'
-gem 'github-pages', group: :jekyll_plugins
-gem 'safe_yaml', '~> 1.0.4'
-gem 'wdm', '~> 0.1.0' if Gem.win_platform?
-gem 'jekyll-seo-tag'
-gem 'jekyll-feed'
+gem 'jekyll', '3.1.6'
+
+group :jekyll_plugins do
+  gem 'jekyll-feed'
+  gem 'jekyll-paginate'
+  gem 'jekyll-seo-tag'
+  gem 'jekyll-sitemap'
+  gem 'jekyll-admin'
+end
