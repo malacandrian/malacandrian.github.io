@@ -1,5 +1,6 @@
 ---
 title: Abstract Evolutions
+image: robocode.jpg
 ---
 [View on Github](https://github.com/malacandrian/AbstractEvolutions) [View on NuGet](https://www.nuget.org/packages/AbstractEvolutions/)
 
