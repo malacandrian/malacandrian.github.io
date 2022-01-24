@@ -1,6 +1,5 @@
 ---
   layout: main
-  title: Hello!
 ---
 I’m Evan Williams. I live in Norwich with my wife and a very excitable Labrador, and would love it if you considered me for your next vacancy. I have experience and training in both technical and people-focused roles. I think analytically, learn quickly, and work creatively.
 
