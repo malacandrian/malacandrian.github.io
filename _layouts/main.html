@@ -8,35 +8,11 @@
       <li class="masthead-email"><a href="mailto:evan@williams.ee">{% include mail.svg %}evan@williams.ee</a></li>
       <li class="masthead-twitter"><a href="https://twitter.com/evan_williams">@Evan_Williams{% include twitter.svg %}</a></li>
     </ul>
-    <nav class="main-menu">
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/code">Code</a></li>
-        <li><a href="/games">Games</a></li>
-        <li><a href="/blog">Blog</a></li>
-      </ul>
-    </nav>
     <div class="frame">
       <main>
         <h2>{{page.title}}</h2>
         {{ content }}
       </main>
-      <nav class="side-menu">
-        <ul>
-          {% assign collection = site[page.collection] %}
-          {% for item in collection %}
-            <li>
-              <a href="{{item.url}}">
-                {% if item.short-title %}
-                  {{ item.short-title }}
-                {% else %}
-                  {{ item.title }}
-                {% endif %}
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
-      </nav>
     </div>
   </body>
 </html>

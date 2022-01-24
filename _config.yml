@@ -8,15 +8,6 @@ url: "https://evan.williams.ee" # the base hostname & protocol for your site
 twitter_username: evan_williams
 github_username:  malacandrian
 
-# Collecctions
-collections:
-  code:
-    output: true
-    permalink: /code/:path
-  games:
-    output: true
-    permalink: /games/:path
-
 # Defaults
 defaults:
   -
@@ -30,32 +21,6 @@ defaults:
       type: "pages"
     values:
       permalink: /:basename
-  -
-    scope:
-      path: ""
-      type: "code"
-    values:
-      image-root: /resources/images/code/
-  -
-    scope:
-      path: ""
-      type: "games"
-    values:
-      image-root: /resources/images/games/
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-        permalink: /blog/:categories/:slug
-        image-root: /resources/images/blog/
-  -
-    scope:
-      path: "sermons"
-      type: "posts"
-    values:
-      layout: sermon
-      audio-root: /resources/sermons/
 
 # Build settings
 markdown: kramdown

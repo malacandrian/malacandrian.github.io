@@ -1,9 +1,0 @@
----
-  layout: main
----
-{{content}}
-{% for audio in site.categories[page.category] %}
-  <h3>{{audio.title}}</h3>
-  <audio controls="true" src="{{audio.audio-root}}{{audio.audio}}"></audio>
-  {{audio.content}}
-{% endfor %}
