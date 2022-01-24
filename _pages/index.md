@@ -1,16 +1,6 @@
 ---
   layout: main
 ---
-<nav class="toc">
-<ul>
-<li class="h2"><a href="#About">About Me</a></li>
-<li class="h2"><a href="#Projects">Projects</a></li>
-<li class="h3"><a href="#API">API for CAN Dashboards</a></li>
-<li class="h3"><a href="#Bootloader">CAN Bootloader</a></li>
-<li class="h3"><a href="#4D">4D Display Loader</a></li>
-</ul>
-</nav>
-
 <a id="About" />
 
 ## About Me
