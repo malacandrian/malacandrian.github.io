@@ -3,11 +3,11 @@
 ---
 <nav class="toc">
 <ul>
-<li class="h2">[About Me](#About Me)</li>
-<li class="h2">[Projects](#Projects)</li>
-<li class="h3">[API for CAN Dashboards](#API for CAN Dashboards)</li>
-<li class="h3">[CAN Bootloader](#CAN Bootloader)</li>
-<li class="h3">[4D Display Loader](#4D Display Loader)</li>
+<li class="h2"><a href="#About">About Me</a></li>
+<li class="h2"><a href="#Projects">Projects</a></li>
+<li class="h3"><a href="#API">API for CAN Dashboards</a></li>
+<li class="h3"><a href="#Bootloader">CAN Bootloader</li>
+<li class="h3"><a href="#4D">4D Display Loader</a></li>
 </ul>
 </nav>
 
@@ -35,16 +35,10 @@ The dashboards are not tied to a single vendor's API. Instead, modules can be cr
 Due to hardware limitations, most CAN dongles can only talk to a single process at once. For example the [USB-Tin](https://www.fischl.de/usbtin/) uses a virtual COM Port to handle communication, which can only be opened in a single process. My API allows the hardware resource to be shared between processes. This allows multiple programs to all send and receive messages from both the CAN dongle, and from each other. In theory this could be extended over a TCP/IP network to allow multiple computers to access a single physical CAN resource.
 
 #### Interpreting Multiple CAN Signal Encodings
-There are multiple schemes for encoding data into a CAN message. They vary in expected ways, such as the endianness of a multi-byte message; but also in surprising ways such as the correct ordering of bits within a byte or the bytes within message. Hugo Provencher covers this subject well in chapter 9 of his [in-depth analysis of CAN networks](https://hugoprovencher.com/files/2015/07/DirectedStudies_HugoProvencher.pdf). To summarise, there are six main arrangements to be considered:
+There are multiple schemes for encoding data into a CAN message. They vary in expected ways, such as the endianness of a multi-byte message; but also in surprising ways such as the correct ordering of bits within a byte or the bytes within message. Hugo Provencher covers this subject well in chapter 9 of his [in-depth analysis of CAN networks](https://hugoprovencher.com/files/2015/07/DirectedStudies_HugoProvencher.pdf). 
 
-- Intel Standard
-- Intel Sequential
-- Motorola Forward LSB
-- Motorola Forward MSB
-- Motorola Backward
-- Motorola Sequential
+To summarise, there are six main arrangements to be considered: Intel Standard, Intel Sequential, Motorola Forward LSB, Motorola Forward MSB, Motorola Backward, and Motorola Sequential. A 10-bit signal starting at bit 23 of an 8-byte message would be located in the following position for each encoding:
 
-A 10-bit signal starting at bit 23 of an 8-byte message would be located in the following position for each encoding:
 <img class="bitfield" src="/resources/Intel%20Standard.svg" /> <img class="bitfield" src="/resources/Intel%20Sequential.svg" /> <img class="bitfield" src="/resources/Motorola%20Forward%20LSB.svg" /> <img class="bitfield" src="/resources/Motorola%20Forward%20MSB.svg" /> <img class="bitfield" src="/resources/Motorola%20Backward.svg" /> <img class="bitfield" src="/resources/Motorola%20Sequential.svg" />
 
 A signal defined by start position and length in one standard may be non-contiguous if transferred to another. Therefore, a function is needed for each encoding. The transfer function takes the full message, the start position, and the length as inputs, and returns a sequence of bits as the output, standardised such that the sequence begins with the LSB and ends with the MSB. This sequence can then be deserialised into a meaningful domain value (e.g. translated to an enumeration, or having an affine transformation applied to it) for the model and then rendered into a string for the view model.
@@ -67,4 +61,4 @@ There are several projects in which we use [4D Systems Displays](https://4dsyste
 
 4D systems recommend a slow, manual process that involves multiple tools for doing this. To streamline this, as well as adding extra functionality; I created a PowerShell 7 module in C# that can output 4DGL code files that contain image assets, colour pallets, on-screen locations, and more.
 
-I chose to create it as a 
+I chose to create it as a PowerShell module because I wanted the export to be an automatable process, and PowerShell gave me an expressive language for building custom configurations for each application.
