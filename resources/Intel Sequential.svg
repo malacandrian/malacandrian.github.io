@@ -9,7 +9,7 @@
             </clipPath>
             <g clip-path="url(#_clip1)">
                 <g transform="matrix(-2.66667,0,0,2.4,888.889,60.3282)">
-                    <path d="M33.333,75L66.667,74.726L66.667,100L300,100.104L300,150L266.667,150L266.667,125L33.333,125L33.333,75Z" style="fill:rgb(24,255,54);"/>
+                    <path d="M33.333,75L300,75L299.271,100L100,99.726L100,124.726L33.333,125L33.333,75Z" style="fill:rgb(24,255,54);"/>
                 </g>
                 <g transform="matrix(7.77156e-16,-1.65788,1.84209,1.22125e-15,62.0562,118.278)">
                     <text x="10.24px" y="12.5px" style="font-family:'BitstreamVeraSansMono-Roman', 'Bitstream Vera Sans Mono', monospace;font-size:13.177px;">Bit</text>
@@ -30,28 +30,28 @@
                 <g transform="matrix(2.66667,0,0,2.4,622,299.672)">
                     <text x="46.73px" y="16.708px" style="font-family:'BitstreamVeraSansMono-Roman', 'Bitstream Vera Sans Mono', monospace;font-size:11px;">8</text>
                 </g>
-                <g transform="matrix(2.66667,0,0,2.4,533.229,300.328)">
+                <g transform="matrix(2.66667,0,0,2.4,-2.27374e-13,239.672)">
                     <text x="46.73px" y="16.708px" style="font-family:'BitstreamVeraSansMono-Roman', 'Bitstream Vera Sans Mono', monospace;font-size:11px;">7</text>
                 </g>
-                <g transform="matrix(2.66667,0,0,2.4,444.118,300.328)">
+                <g transform="matrix(2.66667,0,0,2.4,89.3326,240.328)">
                     <text x="46.73px" y="16.708px" style="font-family:'BitstreamVeraSansMono-Roman', 'Bitstream Vera Sans Mono', monospace;font-size:11px;">6</text>
                 </g>
-                <g transform="matrix(2.66667,0,0,2.4,354.668,300.328)">
+                <g transform="matrix(2.66667,0,0,2.4,176.447,239.672)">
                     <text x="46.73px" y="16.708px" style="font-family:'BitstreamVeraSansMono-Roman', 'Bitstream Vera Sans Mono', monospace;font-size:11px;">5</text>
                 </g>
-                <g transform="matrix(2.66667,0,0,2.4,266.556,300.328)">
+                <g transform="matrix(2.66667,0,0,2.4,265.557,239.672)">
                     <text x="46.73px" y="16.708px" style="font-family:'BitstreamVeraSansMono-Roman', 'Bitstream Vera Sans Mono', monospace;font-size:11px;">4</text>
                 </g>
-                <g transform="matrix(2.66667,0,0,2.4,177.445,300.328)">
+                <g transform="matrix(2.66667,0,0,2.4,355.666,239.672)">
                     <text x="46.73px" y="16.708px" style="font-family:'BitstreamVeraSansMono-Roman', 'Bitstream Vera Sans Mono', monospace;font-size:11px;">3</text>
                 </g>
-                <g transform="matrix(2.66667,0,0,2.4,89.3326,300.328)">
+                <g transform="matrix(2.66667,0,0,2.4,443.779,239.672)">
                     <text x="46.73px" y="16.708px" style="font-family:'BitstreamVeraSansMono-Roman', 'Bitstream Vera Sans Mono', monospace;font-size:11px;">2</text>
                 </g>
-                <g transform="matrix(2.66667,0,0,2.4,0.221844,300.328)">
+                <g transform="matrix(2.66667,0,0,2.4,533.229,239.672)">
                     <text x="46.73px" y="16.708px" style="font-family:'BitstreamVeraSansMono-Roman', 'Bitstream Vera Sans Mono', monospace;font-size:11px;">1</text>
                 </g>
-                <g transform="matrix(2.66667,0,0,2.4,0.221844,359.672)">
+                <g transform="matrix(2.66667,0,0,2.4,533.229,299.672)">
                     <text x="46.73px" y="11.208px" style="font-family:'BitstreamVeraSansMono-Roman', 'Bitstream Vera Sans Mono', monospace;font-size:11px;">9</text>
                     <text x="33.485px" y="22.208px" style="font-family:'BitstreamVeraSansMono-Roman', 'Bitstream Vera Sans Mono', monospace;font-size:11px;">(msb)</text>
                 </g>

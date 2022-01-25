@@ -9,7 +9,7 @@
             </clipPath>
             <g clip-path="url(#_clip1)">
                 <g transform="matrix(2.66667,0,0,2.4,0.221844,60.9182)">
-                    <path d="M33.333,75L66.667,74.726L66.667,100L300,100.104L300,150L266.667,150L266.667,125L33.333,125L33.333,75Z" style="fill:rgb(24,255,54);"/>
+                    <path d="M33.333,75L299.917,75L299.917,99.515L100.333,100L100.333,125L33.333,125L33.333,75Z" style="fill:rgb(24,255,54);"/>
                 </g>
                 <g id="Gridlines" transform="matrix(1,0,0,0.9,0,60)">
                     <g transform="matrix(2.66667,0,0,2.66667,32.2453,4.35207e-14)">
@@ -138,31 +138,31 @@
                     <text x="46.73px" y="11.208px" style="font-family:'BitstreamVeraSansMono-Roman', 'Bitstream Vera Sans Mono', monospace;font-size:11px;">9</text>
                     <text x="33.485px" y="22.208px" style="font-family:'BitstreamVeraSansMono-Roman', 'Bitstream Vera Sans Mono', monospace;font-size:11px;">(msb)</text>
                 </g>
-                <g transform="matrix(2.66667,0,0,2.4,622.222,300.262)">
+                <g transform="matrix(2.66667,0,0,2.4,0.665533,300.918)">
                     <text x="46.73px" y="16.708px" style="font-family:'BitstreamVeraSansMono-Roman', 'Bitstream Vera Sans Mono', monospace;font-size:11px;">1</text>
                 </g>
-                <g transform="matrix(2.66667,0,0,2.4,533.451,300.918)">
+                <g transform="matrix(2.66667,0,0,2.4,623.11,240)">
                     <text x="46.73px" y="16.708px" style="font-family:'BitstreamVeraSansMono-Roman', 'Bitstream Vera Sans Mono', monospace;font-size:11px;">2</text>
                 </g>
-                <g transform="matrix(2.66667,0,0,2.4,444.34,300.918)">
+                <g transform="matrix(2.66667,0,0,2.4,533.999,240)">
                     <text x="46.73px" y="16.708px" style="font-family:'BitstreamVeraSansMono-Roman', 'Bitstream Vera Sans Mono', monospace;font-size:11px;">3</text>
                 </g>
-                <g transform="matrix(2.66667,0,0,2.4,354.89,300.918)">
+                <g transform="matrix(2.66667,0,0,2.4,444.888,240)">
                     <text x="46.73px" y="16.708px" style="font-family:'BitstreamVeraSansMono-Roman', 'Bitstream Vera Sans Mono', monospace;font-size:11px;">4</text>
                 </g>
-                <g transform="matrix(2.66667,0,0,2.4,266.778,300.918)">
+                <g transform="matrix(2.66667,0,0,2.4,355.777,240)">
                     <text x="46.73px" y="16.708px" style="font-family:'BitstreamVeraSansMono-Roman', 'Bitstream Vera Sans Mono', monospace;font-size:11px;">5</text>
                 </g>
-                <g transform="matrix(2.66667,0,0,2.4,177.667,300.918)">
+                <g transform="matrix(2.66667,0,0,2.4,266.999,240)">
                     <text x="46.73px" y="16.708px" style="font-family:'BitstreamVeraSansMono-Roman', 'Bitstream Vera Sans Mono', monospace;font-size:11px;">6</text>
                 </g>
-                <g transform="matrix(2.66667,0,0,2.4,89.5544,300.918)">
+                <g transform="matrix(2.66667,0,0,2.4,177.889,240)">
                     <text x="46.73px" y="16.708px" style="font-family:'BitstreamVeraSansMono-Roman', 'Bitstream Vera Sans Mono', monospace;font-size:11px;">7</text>
                 </g>
-                <g transform="matrix(2.66667,0,0,2.4,0.443689,300.918)">
+                <g transform="matrix(2.66667,0,0,2.4,89.7763,240)">
                     <text x="46.73px" y="16.708px" style="font-family:'BitstreamVeraSansMono-Roman', 'Bitstream Vera Sans Mono', monospace;font-size:11px;">8</text>
                 </g>
-                <g transform="matrix(2.66667,0,0,2.4,622.222,360.918)">
+                <g transform="matrix(2.66667,0,0,2.4,88.778,300.918)">
                     <text x="46.73px" y="11.208px" style="font-family:'BitstreamVeraSansMono-Roman', 'Bitstream Vera Sans Mono', monospace;font-size:11px;">0</text>
                     <text x="33.485px" y="22.208px" style="font-family:'BitstreamVeraSansMono-Roman', 'Bitstream Vera Sans Mono', monospace;font-size:11px;">(lsb)</text>
                 </g>
